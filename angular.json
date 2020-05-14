@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../angClientPanel/node_modules/font-awesome/css/font-awesome.min.css",
+              "../angClientPanel/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../angClientPanel/node_modules/jquery/dist/jquery.js",
+              "../angClientPanel/node_modules/popper.js/dist/umd/popper.js",
+              "../angClientPanel/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
